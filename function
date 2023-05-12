@@ -1,0 +1,55 @@
+package Taskk1
+fun main(){
+
+    printName()
+
+}
+
+fun printName(){
+    println("How are you?")
+     printReply()
+    println("How old are you?")
+    printReply_c()
+    println("What are your trak?")
+    printReply_a()
+}
+
+fun printReply(){
+    var Reply1= readln()
+
+}
+fun printReply_c(){
+
+    var Reply2= readln()
+}
+
+fun printReply_a(){
+
+    var Reply3= readln()
+
+}
+
+fun main(){
+ val age=22
+    fun quastionAge() = if (age<21) println("I am in Univaresty") else println("I am yang")
+
+    quastionAge()
+}
+
+
+fun main(){
+
+    parameters(name ="mostafa", age =21, isHappy =true)
+
+
+}
+
+fun parameters(name:String,age:Int ,isHappy:Boolean){
+    println("what is your name? ")
+    println("my name is $name")
+    println("How old are you?")
+    println("my age is $age")
+    println("Are you is Happy?   $isHappy")
+
+}
+
